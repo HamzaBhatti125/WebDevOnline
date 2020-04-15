@@ -1,0 +1,45 @@
+.logo{
+    text-align: center;
+}
+.logo h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #6B5ACD;
+}
+.forms {
+    width: 80%;
+    margin: 0 auto;
+    background: #6B5ACD;
+    color: #fff;
+}
+.rows{
+    padding-top: 15px;
+}
+.rows.row12 {
+    padding-bottom: 20px;
+}
+.rows.row12 table {
+    display: inline;
+    text-align: center;
+}
+.first-child {
+    width: 200px;
+    padding-left: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.btns {
+    padding: 20px;
+    text-align: center;
+}
+.btns input[type="submit"], input[type="button"] {
+    padding: 5px;
+    width: 85px;
+    border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]
+ {
+    padding: 5px;
+}
