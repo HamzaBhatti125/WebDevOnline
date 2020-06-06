@@ -134,6 +134,13 @@ footer.page-footer.font-small {
     padding-bottom: 20px;
 }
 
+.confirm {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 100px auto;
+    width: 80%;
+}
+
 
 /*-----------------------------------------
   DESKTOP SPECIFIC STYLES 
@@ -210,6 +217,10 @@ footer.page-footer.font-small {
         font-weight: 600;
     }
 
+    .header-div .dropdown-menu a {
+        color: #2B96CC !important;
+    }
+
     button.navbar-toggler {
         background: #fff !important;
         color: #2B96CC;
@@ -250,6 +261,14 @@ footer.page-footer.font-small {
 
     .category-row .col-3 {
         padding-top: 25px;
+    }
+
+    .confirm h1{
+        font-size: 16px;
+    }
+
+    .confirm h4 {
+        font-size: 12px;
     }
   
 }
